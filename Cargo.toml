@@ -1,0 +1,19 @@
+[package]
+name = "mongodb-models-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+csv = "1.2.2"
+serde_json = "1.0.107"
+serde = { version = "1.0.188", features = ["derive"] }
+anyhow = "1.0.75"
+tokio = { version = "1.32.0", features = ["full"] }
+futures = "0.3.28"
+tokio-util = { version = "0.7", features = ["full"] }
+mongodb= "2.6.1"
+bson = "2.7.0"
+tokio-stream = "0.1.8"
+dotenv = "0.15.0"
